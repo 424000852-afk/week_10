@@ -36,7 +36,7 @@ class Laptop {
     print('Power: ${isOn ? "ON" : "OFF"}');
   }
 
-  // NEW: Asynchronous method
+  //the asynch method
   Future<String> saveDetails() async {
     print('Saving $brand laptop details...');
 
